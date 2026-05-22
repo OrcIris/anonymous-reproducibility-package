@@ -1,0 +1,8 @@
+Split,Season,N,Pure CNN-BiLSTM-Attn,Hybrid Anchor-Residual,MoE-Gated Hybrid,Latent Physical Regularization,WeatherCalib Pre-Net
+MAIN_TEST,Autumn,79,6.676,7.312,7.496,6.298,7.016
+MAIN_TEST,Spring,87,7.307,7.197,7.656,6.416,6.54
+MAIN_TEST,Summer,156,3.423,4.076,4.296,3.653,3.481
+MAIN_TEST,Winter,88,7.826,7.639,7.648,7.444,7.738
+PRED_TEST,Autumn (Sep-Nov),86,9.376,11.664,10.7,9.515,9.362
+PRED_TEST,Other,10,10.287,13.194,10.348,12.182,12.255
+PRED_TEST,Winter (Dec-Feb),82,9.599,10.282,10.559,9.735,10.916

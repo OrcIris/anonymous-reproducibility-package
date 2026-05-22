@@ -1,0 +1,16 @@
+Model,NWP Source,RMSE_pred,MAE_pred,R2_pred,RMSE_VC,ΔRMSE_vs_VC
+Pure CNN-BiLSTM-Attn,VC (original),9.532,6.982,0.708,9.532,0.0
+Pure CNN-BiLSTM-Attn,"ERA5-like (-7% GHI, +1°C, +5pp cloud)",9.683,7.186,0.698,9.532,0.151
+Pure CNN-BiLSTM-Attn,"Optimistic NWP (+3% GHI, -0.5°C)",9.522,6.931,0.708,9.532,-0.01
+Hybrid Anchor-Residual,VC (original),11.145,7.819,0.6,11.145,0.0
+Hybrid Anchor-Residual,"ERA5-like (-7% GHI, +1°C, +5pp cloud)",11.429,8.391,0.58,11.145,0.284
+Hybrid Anchor-Residual,"Optimistic NWP (+3% GHI, -0.5°C)",11.787,8.453,0.553,11.145,0.642
+MoE-Gated Hybrid,VC (original),10.616,7.924,0.637,10.616,0.0
+MoE-Gated Hybrid,"ERA5-like (-7% GHI, +1°C, +5pp cloud)",10.681,7.818,0.633,10.616,0.065
+MoE-Gated Hybrid,"Optimistic NWP (+3% GHI, -0.5°C)",10.794,8.107,0.625,10.616,0.178
+Latent Physical Regularization,VC (original),9.785,7.092,0.692,9.785,0.0
+Latent Physical Regularization,"ERA5-like (-7% GHI, +1°C, +5pp cloud)",9.934,7.304,0.683,9.785,0.149
+Latent Physical Regularization,"Optimistic NWP (+3% GHI, -0.5°C)",9.782,7.066,0.692,9.785,-0.003
+WeatherCalib Pre-Net,VC (original),10.28,7.417,0.66,10.28,0.0
+WeatherCalib Pre-Net,"ERA5-like (-7% GHI, +1°C, +5pp cloud)",10.579,7.758,0.64,10.28,0.299
+WeatherCalib Pre-Net,"Optimistic NWP (+3% GHI, -0.5°C)",10.205,7.323,0.665,10.28,-0.075
