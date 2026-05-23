@@ -4,6 +4,3 @@ scikit-learn
 matplotlib
 scipy
 torch
-torch-optimizer
-torch-ema
-openpyxl
