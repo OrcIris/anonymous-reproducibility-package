@@ -1,6 +1,6 @@
 Model,Total params,Trainable params,Best epoch mean,Epochs run mean,Training wall-clock time per seed (s) mean,"Total training wall-clock time, 5 seeds (s)",Inference latency (ms) mean,Inference path
-Pure CNN-BiLSTM-Attn,169604,169604,379.2,446.8,36.18,180.88,1.181,Standard
-Hybrid Anchor-Residual,364697,364691,1551.0,1592.6,180.38,901.89,3.655,+Physics module
-MoE-Gated Hybrid,195481,195481,654.2,714.2,67.45,337.27,2.39,+Physics+Gate
-Latent Physical Regularization,178840,178840,350.8,416.6,33.94,169.68,2.266,Standard (aux head training-only)
-WeatherCalib Pre-Net,162565,162565,362.2,427.8,35.15,175.76,1.688,+Calib (small pre-net)
+Pure CNN-BiLSTM-Attn,169604,169604,379.2,446.8,35.87,179.37,1.104,Standard
+Hybrid Anchor-Residual,364697,364691,1551.0,1592.6,180.1,900.51,3.248,+Physics module
+MoE-Gated Hybrid,195481,195481,654.2,714.2,66.32,331.58,2.15,+Physics+Gate
+Latent Physical Regularization,178840,178840,350.8,416.6,32.95,164.76,2.043,Standard (aux head training-only)
+WeatherCalib Pre-Net,162565,162565,362.2,427.8,32.4,161.98,1.555,+Calib (small pre-net)
